@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.background{
+    /* background-color: rgb(153, 58, 243); */
+    background-color: cadetblue;
+}
+.mid-section{
+    height: 86vh;
+   background-color: lightgrey;
+    /* overflow: auto; */
+}
+.first, .second{
+    width: 100%;
+}
+.first{
+    height: 88%;
+    overflow: auto;
+}
+.first::-webkit-scrollbar{
+    display: none;
+}
+.left, .right{
+    width: 75vw;
+    margin: 10px 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+    width: 50vw;
+    margin: auto;
+    clear: both;
+}
+.second{
+    height: 12%;
+}
+.second > .row > div > form > div {
+    width: 90%;
+    margin: auto;
+}
+@media only screen and (min-width: 0px) and (max-width: 500px){
+    .mid-section{
+        height: 80vh;
+    }
+}
