@@ -31,11 +31,13 @@
 }
 .right{
     float: right;
+    text-align: right;
 }
 .center{
     width: 50vw;
-    margin: auto;
+    margin: 10px auto;
     clear: both;
+    text-align: center;
 }
 .second{
     height: 12%;
